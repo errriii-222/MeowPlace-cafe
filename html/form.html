@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Анкета на усыновление кота</title>
+    <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+    <header class="hero">
+        <h1>Meow</h1>
+        <img class="logo" src="../img/logo-no-bg-preview (carve.photos).png" alt="">
+        <h1>Place</h1>
+    </header>
+    <nav class="navbar">
+        <a class="nav-one-hed" href="../index.html">Главная</a>
+        <a class="nav-two-hed" href="../html/about us.html">О нас</a>
+        <a class="nav-th-hed" href="../html/about cat.html">О котиках</a>
+    </nav>
+  <main>
+<section class="cat-adoption-form">
+    <h1 class="cat-adoption-form h1"> Анкета потенциального владельца котика</h1>
+    <p class="form-adoption">Заполнение этой анкеты помогает нам найти лучший дом для наших подопечных.</p>
+    <form action="#" method="post" class="p-button">
+        <h3 class="cat-adoption-form h3">1. Личная информация</h3>
+        <p>
+            ФИО:
+            <input class="form-group input" type="text" name="fio" size="50" required>
+        </p>
+        <p>
+            Возраст:
+            <input type="number" name="age" min="18" max="100">
+        </p>
+        <p>
+            Контактный телефон / Телеграм:
+            <input class="form-group input" type="text" name="contact" required>
+        </p>
+        <p>
+            Город проживания и район:
+            <input class="form-group input" type="text" name="location" size="40">
+        </p>
+        <h3 class="cat-adoption-form h3">2. Жилищные условия</h3>
+        <p>
+            Тип жилья:
+            <input class="form-group input" type="radio" name="housing" value="own"> Свое
+            <input class="form-group input" type="radio" name="housing" value="rent"> Съемное
+        </p>
+        <p>
+            Наличие сеток «Антикошка» на окнах:
+        </p>
+        <p>
+            <input class="form-group input" type="radio" name="nets" value="yes"> Да
+            <input class="form-group input" type="radio" name="nets" value="no"> Нет
+            <input class="form-group input" type="radio" name="nets" value="plan"> Планирую установить
+        </p>
+        <p>
+            <small><i>Примечание: Обычные москитные сетки не защищают кота от падения.</i></small>
+        </p>
+        <p>
+            Есть ли у вас балкон и застеклен ли он?
+            <input class="form-group input" type="text" name="balcony" size="40">
+        </p>
+        <h3 class="cat-adoption-form h3">3. Опыт и состав семьи</h3>
+        <p>
+            Для кого вы берете кота?
+            <select name="target">
+                <option value="self">Себе</option>
+                <option value="gift">В подарок</option>
+                <option value="child">Ребенку</option>
+            </select>
+        </p>
+        <p>
+            Все ли члены семьи согласны на появление питомца?
+            <input class="form-group input" type="text" name="family_agree">
+        </p>
+        <p>
+            Есть ли у кого-то из домочадцев аллергия на шерсть?
+            <input type="radio" name="allergy" value="yes"> Да
+            <input type="radio" name="allergy" value="no"> Нет
+        </p>
+        <p>
+            Есть ли сейчас другие питомцы? (Вид, пол, возраст, характер):
+            <textarea name="other_pets" rows="3" cols="50"></textarea>
+        </p>
+        <h3 class="cat-adoption-form h3">4. Уход и безопасность</h3>
+        <p>
+            Чем планируете кормить котика?
+            <input type="text" name="food" size="50">
+        </p>
+        <p>
+            Готовы ли вы к обязательной стерилизации/кастрации?
+            <input type="radio" name="steril" value="yes"> Да
+            <input type="radio" name="steril" value="no"> Нет
+        </p>
+        <p>
+            Ваше отношение к самовыгулу?
+            <textarea name="walking" rows="2" cols="50"></textarea>
+        </p>
+        <p>
+            Что вы будете делать с питомцем на время отпуска?
+            <input type="text" name="vacation" size="50">
+        </p>
+        <h3 class="cat-adoption-form h3">5. Философский вопрос</h3>
+        <p>
+            Что вы сделаете, если кот начнет портить мебель или метить углы?
+            <textarea name="bad_behavior" rows="4" cols="50"></textarea>
+        </p>
+        <p>
+            Готовы ли вы присылать «приветы из дома»?
+            <input type="radio" name="feedback" value="yes"> Да
+            <input type="radio" name="feedback" value="no"> Нет
+        </p>
+   <div class="form-button">
+    <button class="submit-btn" type="submit">Отправить анкету</button>
+   </div>
+            
+               
+    </form>
+
+</section>
+  </main>
+  <footer class="container">
+    <h3 class="footer-contact">Наши контакты</h3>
+    <p class="ft-email">Почта: meowplace@gmail.com</p>
+    <p class="ft-tel">Телефон: +7 978 000-00-00</p>
+
+  </footer>
+</body>
+</html>
+
+
+
+
